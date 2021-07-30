@@ -4,4 +4,4 @@ f = open("destroyer", 'r')
 for word in f:
     pyautogui.typewrite(word)
     pyautogui.press("enter")
-    time.sleep(2)
+    time.sleep(0.2)
